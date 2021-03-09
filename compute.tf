@@ -1,4 +1,4 @@
-resource "oci_core_instance" "ubuntu_instance" {
+resource "oci_core_instance" "ubuntu_instance2" {
     # Required
     count               = var.num_instances
     availability_domain = data.oci_identity_availability_domains.ads.availability_domains[0].name
